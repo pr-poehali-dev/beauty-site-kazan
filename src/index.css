@@ -1,38 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 42 45% 97%;
-    --foreground: 0 0% 10%;
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 10%;
+    --card-foreground: 222.2 84% 4.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 10%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 160 55% 20%;
-    --primary-foreground: 42 45% 97%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
 
-    --secondary: 42 45% 97%;
-    --secondary-foreground: 0 0% 10%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
-    --muted: 42 20% 90%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 43 74% 49%;
-    --accent-foreground: 0 0% 10%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 42 20% 85%;
-    --input: 42 20% 85%;
-    --ring: 43 74% 49%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
 
@@ -99,16 +97,5 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Montserrat", sans-serif;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 500;
   }
 }
